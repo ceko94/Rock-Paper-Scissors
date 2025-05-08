@@ -10,6 +10,8 @@ function getComputerChoice(){
   }
 }
 
+
 function getHumanChoice(){
-  return prompt;
-}
+  const userInput=prompt("Enter your choice (rock,paper,scissors):");
+  return userInput;
+}  
